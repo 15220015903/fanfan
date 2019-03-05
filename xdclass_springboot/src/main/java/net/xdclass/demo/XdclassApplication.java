@@ -5,14 +5,15 @@ import javax.servlet.MultipartConfigElement;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-//@SpringBootApplication //一个注解顶下面3个
-@SpringBootConfiguration
+@SpringBootApplication //一个注解顶下面3个
+/*@SpringBootConfiguration
 @EnableAutoConfiguration
-@ComponentScan
+@ComponentScan*/
 public class XdclassApplication {
 
 	public static void main(String[] args) {

@@ -8,7 +8,7 @@ public class TestHelloWorld {
 
     @Test()
     public void testEmailGenerator() {
-
+/*
         RandomEmailGenerator obj = new RandomEmailGenerator();
         String email = obj.generate();
         
@@ -25,7 +25,7 @@ public class TestHelloWorld {
         }catch(Exception e){
         	
         }
-        
+        */
 
     }
     
