@@ -8,24 +8,24 @@ public class TestHelloWorld {
 
     @Test()
     public void testEmailGenerator() {
-/*
+
         RandomEmailGenerator obj = new RandomEmailGenerator();
         String email = obj.generate();
         
-        int b = 10/0;
-        String fan = null;
+        int b = 10/1;
+        String fan = "";
         
         Assert.assertNotNull(fan);
         Assert.assertNotNull(email);
         Assert.assertEquals(email, "feedback@yiibai.com");
-        Assert.assertEquals(email, "feedback@yiibai.comfan");
+        Assert.assertEquals(email, "feedback@yiibai.com");
         
         try {
         	
         }catch(Exception e){
         	
         }
-        */
+        
 
     }
     
