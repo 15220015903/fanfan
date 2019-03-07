@@ -21,7 +21,7 @@ public class TestHelloWorld {
         Assert.assertNotNull(fan);
         Assert.assertNotNull(email);
         Assert.assertEquals(email, "feedback@yiibai.com");
-        Assert.assertEquals(email, "feedback@yiibai.comfan");
+        Assert.assertEquals(email, "feedback@yiibai.com");
         
         try {
         	
