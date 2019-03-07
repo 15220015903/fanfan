@@ -15,7 +15,7 @@ public class TestHelloWorld {
         RandomEmailGenerator obj = new RandomEmailGenerator();
         String email = obj.generate();
         
-        int b = 10/0;
+        //int b = 10/0;
         String fan = null;
         
         Assert.assertNotNull(fan);
