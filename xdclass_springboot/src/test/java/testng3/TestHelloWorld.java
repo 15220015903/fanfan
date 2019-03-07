@@ -16,7 +16,7 @@ public class TestHelloWorld {
         String email = obj.generate();
         
         //int b = 10/0;
-        String fan = null;
+        String fan = "";
         
         Assert.assertNotNull(fan);
         Assert.assertNotNull(email);
