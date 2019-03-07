@@ -46,6 +46,13 @@
             <artifactId>testng</artifactId>
             <version>6.8.7</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jenkins-ci.plugins/testng-plugin -->
+		<dependency>
+		    <groupId>org.jenkins-ci.plugins</groupId>
+		    <artifactId>testng-plugin</artifactId>
+		    <version>1.9.1</version>
+		</dependency>
+        
         <!-- <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
