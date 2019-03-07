@@ -1,7 +1,10 @@
-package net.xdclass.demo.testng;
+package testng3;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import testng.RandomEmailGenerator;
+
 
 
 public class TestHelloWorld {
@@ -12,13 +15,13 @@ public class TestHelloWorld {
         RandomEmailGenerator obj = new RandomEmailGenerator();
         String email = obj.generate();
         
-        int b = 10/1;
-        String fan = "";
+        int b = 10/0;
+        String fan = null;
         
         Assert.assertNotNull(fan);
         Assert.assertNotNull(email);
         Assert.assertEquals(email, "feedback@yiibai.com");
-        Assert.assertEquals(email, "feedback@yiibai.com");
+        Assert.assertEquals(email, "feedback@yiibai.comfan");
         
         try {
         	

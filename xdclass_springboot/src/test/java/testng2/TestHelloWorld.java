@@ -3,7 +3,8 @@ package testng2;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import net.xdclass.demo.testng.RandomEmailGenerator;
+import testng.RandomEmailGenerator;
+
 
 
 public class TestHelloWorld {
